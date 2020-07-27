@@ -1,0 +1,13 @@
+.all-items-property-content {
+    width: 92rem;
+    margin: auto;
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.add-item {
+    margin: 2.4rem 0 2.6rem auto;
+}

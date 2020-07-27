@@ -1,0 +1,44 @@
+.form-control-selector {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.form-control-selector button {
+    position: absolute;
+    left: -5rem;
+    top: 3.2rem;
+}
+
+
+.form-control-selector .selector,
+input {
+    width: 25.5rem;
+    height: 3.2rem;
+    padding: .8rem;
+    font: normal 1.2rem Roboto;
+    color: #828282;
+}
+
+
+.form-control-adding-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.form-control-array-manip {
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+    position: relative;
+}
+
+
+.form-control-array-manip button {
+    position: absolute;
+    left: 28rem;
+}

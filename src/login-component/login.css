@@ -1,0 +1,77 @@
+.page-login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 35rem;
+    height: 33.6rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(40, 40, 40, 0.05);
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-heading {
+    font: bold 2.2rem Roboto;
+    color: #000000;
+    align-self: center;
+    margin-bottom: 4.8rem;
+}
+
+.login-form span {
+    font: bold 1.2rem Roboto;
+    color: #828282;
+    margin-left: 1.6rem;
+
+}
+
+
+.login-input {
+    width: 31.8rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    border: .1rem solid #E0E0E0;
+    border-radius: .4rem;
+    margin: .8rem 0 1.6rem 1.6rem;
+
+}
+
+.password-input {
+    width: 31.8rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    border: .1rem solid #E0E0E0;
+    border-radius: .4rem;
+    margin: .8rem 0 0em 1.6rem;
+}
+
+
+.login-form button {
+    margin-top: 6.4rem;
+    width: 16rem;
+    height: 3.2rem;
+    border: none;
+    background: #FFB800;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font: 1.6rem Roboto;
+    cursor: pointer;
+    margin-left: 9.5rem;
+
+}
+
+.enter-error {
+    font: 1rem Roboto;
+    color: red;
+    position: absolute;
+    left: 1.6rem;
+    top: 23rem
+}

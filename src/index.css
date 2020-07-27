@@ -1,0 +1,145 @@
+/* Общие стили для проекта*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+/* Основные стили */
+
+body {
+    background-color: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.page {
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.card {
+    width: 111rem;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2rem 2rem rgba(40, 40, 40, 0.05);
+    border-radius: 1rem;
+}
+
+
+
+
+/* Компоненты */
+
+label {
+    font: normal 1.6rem Roboto;
+    color: #000000;
+}
+
+.operation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operation span {
+    cursor: pointer;
+    color: #0258FF;
+    border-bottom: .1rem solid #0258FF;
+}
+
+
+
+/* Таблицы */
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 2.5rem;
+    text-align: left;
+}
+
+thead {
+    font: normal 1.6rem Roboto;
+    color: #828282;
+    opacity: 0.8;
+}
+
+tbody {
+    font: normal 1.4rem Roboto;
+    color: #000000;
+}
+
+
+thead tr th:nth-child(1) {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Кнопки */
+
+.sort-button {
+    position: absolute;
+    left: .5rem;
+    top: 11rem;
+    border: solid black;
+    border-width: 0 .3rem .3rem 0;
+    display: inline-block;
+    padding: .25rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+    outline: none;
+}
+
+.main-button {
+    width: 16rem;
+    height: 3.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background: #FFB800;
+    box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.05);
+    border-radius: .4rem;
+    font: normal 1.6rem Roboto;
+    cursor: pointer;
+}
+
+.main-button a {
+    color: #FFFFFF;
+}
+
+.manip-prop-plus,
+.manip-prop-minus {
+    width: 2.4rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    outline: none;
+    border: .1rem solid #0258FF;
+    background: #FFFFFF;
+    color: #0258FF;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

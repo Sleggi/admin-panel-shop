@@ -1,0 +1,39 @@
+.form-control-file {
+    height: 6rem;
+    width: 25.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+
+.img-upload-button {
+    width: 100%;
+    height: 3.2rem;
+    cursor: pointer;
+    outline: none;
+    border: .1rem solid #000;
+    border-radius: .3rem;
+    position: relative;
+    background-color: #FFFFFF;
+
+}
+
+.img-upload-button .upload-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #0258FF;
+    position: absolute;
+    left: 22.3rem;
+    bottom: .2rem;
+}
+
+.form-control-file label {
+    width: 60rem;
+}
+
+.form-control-file .img-uploaded {
+    font: normal 1.3rem Roboto;
+    color: #828282;
+}

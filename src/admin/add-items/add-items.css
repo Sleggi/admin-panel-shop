@@ -1,0 +1,108 @@
+.add-items-card {
+    width: 111rem;
+    height: 86rem;
+    margin: 2.4rem auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2rem 2rem rgba(40, 40, 40, 0.05);
+    border-radius: 1rem;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+
+}
+
+.add-items-buttons {
+    width: calc(16rem + 3rem + 16rem);
+    display: flex;
+    margin: 2.4rem 9.5rem 2rem auto;
+    justify-content: space-between;
+    border: .1rem solid #F7F9FA;
+}
+
+.button-back {
+    background-color: #FF0000;
+}
+
+.button-save {
+    background-color: #34C15C;
+}
+
+.add-items-content {
+    margin-left: 9.5rem;
+}
+
+.add-items-heading {
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    border-top: .1rem solid #F7F9FA;
+    margin-bottom: 2.4rem;
+}
+
+.add-items-heading h1 {
+    font: bold 1.6rem Roboto;
+}
+
+.form-control-text {
+    height: 6rem;
+    width: 25.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+
+}
+
+.form-control-text input {
+    width: 100%;
+    height: 3.2rem;
+    padding: .8rem;
+    font: normal 1.6rem Roboto;
+    color: #828282;
+
+}
+
+.form-control-description {
+    display: flex;
+    flex-direction: column;
+    width: 54rem;
+    height: 13.8rem;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+
+.textarea {
+    resize: none;
+    height: 11.2rem;
+    outline: none;
+    padding: .8rem;
+    font: normal 1.6rem Roboto;
+    color: #828282;
+}
+
+.adding-new-props {
+    display: flex;
+    align-items: center;
+    width: 25.5rem;
+    justify-content: space-between;
+    margin-bottom: 2.7rem;
+}
+
+.adding-new-props h1 {
+    font: bold 1.4rem Roboto;
+}
+
+
+.new-props-popup {
+    display: flex;
+    width: 54rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.popup-minus {
+    position: absolute;
+    left: -4.5rem;
+    top: 3.2rem;
+}

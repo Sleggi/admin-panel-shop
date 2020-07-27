@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    width: 111rem;
+    margin: auto;
+}
+
+.navigation-list {
+    display: flex;
+    margin-left: 4.1rem;
+
+}
+
+
+
+.nav-element {
+    font: normal 300 2.2rem Roboto;
+    width: 25.5rem;
+    height: 7.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+
+
+.active-link .nav-element {
+    border-top: .2rem solid #0258FF;
+    position: relative;
+    color: #0258FF;
+
+}
+
+.active-link .nav-element::before {
+    content: '';
+    opacity: .1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(180deg, #0258FF 0%, rgba(2, 88, 255, 0));
+}

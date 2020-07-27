@@ -1,0 +1,22 @@
+.all-items-content {
+    width: 92rem;
+    margin: auto;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.navigation-buttons {
+    display: flex;
+    width: 92rem;
+    justify-content: space-between;
+    margin: 2.4rem 0 2.6rem 0;
+}
+
+.item-link a {
+    cursor: pointer;
+    color: #0258FF;
+    border-bottom: .1rem solid #0258FF;
+}
