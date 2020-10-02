@@ -1,6 +1,6 @@
 ### E-shop admin panel
 Created it to learn more about React, Formik.
-#### technologies - html, css, react, react router, Formik (Formik arrays), firebase authentication.
+#### technologies used in this project - html, css, react, react router, Formik (Formik arrays), firebase authentication.
 ##### functionality: 
 1. the ability to log in as an administrator
 2. create, delete products
